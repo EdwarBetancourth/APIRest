@@ -6,7 +6,7 @@
     $email = $_POST['email'];
 
     //Create SQL INSERT
-    $sql = "INSERT INTO user (email) VALUES('$email')";
+    $sql = "INSERT INTO users (email) VALUES('$email')";
 
     //Execute SQL and validate operation
     if($conn->query($sql) === TRUE){
